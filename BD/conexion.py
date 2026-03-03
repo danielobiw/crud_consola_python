@@ -7,7 +7,7 @@ class DAO():
         try:
             self.conexion = mysql.connector.connect(
                 host="XXXX", # AQUI SE INGRESA EL HOST AL QUE SE CONECTA EL GESTOR DE BD
-                port=0000,  # AQUI SE INGRESA EL PUERTO AL QUE SE CONECTA EL GESTOR DE BD
+                port="0000",  # AQUI SE INGRESA EL PUERTO AL QUE SE CONECTA EL GESTOR DE BD
                 user="XXXX",  # AQUI SE INGRESA EL USUARIO DEL GESTOR DE BD
                 password="XXXX",  # AQUI SE INGRESA LA CLAVE O PASSWORD DEL GESTOR DE BD
                 database="XXXX" # AQUI SE INGRESA EL NOMBRE DE LA BD
